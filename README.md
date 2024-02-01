@@ -21,7 +21,7 @@ Python Tkinter library
 <ul>
   <li>Ensure Python is installed on your system.</li> 
   <li>Download the program code.</li> 
-  <li>Run the script using python `main.py`</li> 
+  <li>Run the script using python main.py</li> 
 </ul>
 
 <h3>Controls:</h3>
@@ -45,7 +45,7 @@ ESC: Exit the game
 <h2>Copyright & License</h2>
 
 <h3>Author:</h3>
-2024 © @madetv1280
+2024 © madetv1280
 
 <h3>License:</h3>
 This project is licensed under the MIT License.
