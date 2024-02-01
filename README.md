@@ -34,8 +34,9 @@ S: Move player paddle down
 ESC: Exit the game
 
 <h2>Copyright & License</h2>
+
 <h3>Author:</h3>
-madetv1280
+2024 © madetv1280
 
 <h3>License:</h3>
 This project is licensed under the MIT License.
