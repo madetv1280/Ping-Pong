@@ -1,0 +1,34 @@
+https://www.pygame.org/wiki/about (02/01/2024 08:55 PM)
+
+ABOUT — WIKI
+Pygame is a set of Python modules designed for writing video games. Pygame adds functionality on top of the excellent SDL library. This allows you to create fully featured games and multimedia programs in the python language.
+
+Pygame is highly portable and runs on nearly every platform and operating system.
+
+Pygame itself has been downloaded millions of times.
+
+Pygame is free. Released under the LGPL licence, you can create open source, freeware, shareware, and commercial games with it. See the licence for full details.
+
+For a nice introduction to pygame, examine the line-by-line chimp tutorial, and the introduction for python programmers. buffer, and many other different backends... including an ASCII art backend! OpenGL is often broken on linux systems, and also on windows systems - which is why professional games use multiple backends.
+
+Multi core CPUs can be used easily. With dual core CPUs common, and 8 core CPUs cheaply available on desktop systems, making use of multi core CPUs allows you to do more in your game. Selected pygame functions release the dreaded python GIL, which is something you can do from C code.
+
+Uses optimized C and Assembly code for core functions. C code is often 10-20 times faster than python code, and assembly code can easily be 100x or more times faster than python code.
+
+Comes with many operating systems. Just an apt-get, emerge, pkg_add, or yast install away. No need to mess with installing it outside of your operating system's package manager. Comes with binary pos system installers (and uninstallers) for Windows or MacOSX. Pygame does not require setup tools with even ctypes to install.
+
+Truly portable. Supports Linux (pygame comes with most main stream linux distributions), Windows (95, 98, ME, 2000, XP, Vista, 64-bit Windows, etc), Windows CE, BeOS, MacOS, Mac OS X, FreeBSD, NetBSD, OpenBSD, BSD/OS, Solaris, IRIX, and QNX. The code contains support for AmigaOS, Dreamcast, Atari, AIX, OSF/Tru64, RISC OS, SymbianOS and OS/2, but these are not officially supported. You can use it on hand held devices, game consoles and the One Laptop Per Child (OLPC) computer.
+
+It's Simple and easy to use. Kids and adults make shooter games with pygame. Pygame is used in the OLPC project and has been taught in essay courses to young kids and college students. It's also used by people who first programmed in z80 assembler or c64 basic.
+
+Many games have been published. Including Indie Game Festival finalists, Australian Game festival finalists, popular shareware, multimedia projects and open source games. Over 660 projects have been published on the pygame websites such as: list needed. Many more games have been released with SDL (which pygame is based on), so you can be sure much of it has been tested well by millions of users.
+
+You control your main loop. You call pygame functions, they don't call your functions. This gives you greater control when using other libraries, and for different types of programs.
+
+Does not require a GUI to use all functions. You can use pygame from a command line if you want to use it just to process images, get joystick input, or play sounds.
+
+Fast response to reported bugs. Some bugs are patched within an hour of being reported. Do a search on our mailing list for BUG... you'll see for yourself. Sometimes we suck at bug fixes, but mostly we're pretty good bug fixers. Bug reports are quite rare these days, since a lot of them have been fixed already.
+
+Small amount of code. It does not have hundreds of thousands of lines of code for things you won't use anyway. The core is kept simple, and extra things like GUI libraries, and effects are developed separately outside of pygame.
+
+Modular. You can use pieces of pygame separately. Want to use a different sound library? That's fine. Many of the core modules can be initialized and used separately.
