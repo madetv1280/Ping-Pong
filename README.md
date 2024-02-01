@@ -18,19 +18,29 @@ Python Tkinter library
 
 
 <h2>Installation/Usage:</h2>
-Ensure Python is installed on your system.
-Download the program code.
-Open the terminal or command prompt and navigate to the game's directory.
-Run the script using python your_script_name.py.
-Use the W and S keys for manual control (Mode 1) or switch to automatic mode (Mode 2) with the respective keys.
-Press the ESC key to exit the game.
+<ul>
+  <li>Ensure Python is installed on your system.</li> 
+  <li>Download the program code.</li> 
+  <li>Open the terminal or command prompt and navigate to the game's directory.</li> 
+  <li>Run the script using python main.py</li> 
+</ul>
 
 <h3>Controls:</h3>
+
 W: Move player paddle up
+
 S: Move player paddle down
+
 1: Switch to manual control mode
+
 2: Switch to automatic control mode
-3: Toggle debug mode (if enabled)
+
+3: Toggle debug mode
+
+T + Arrow Up/Down: Tick up/down
+
+R + Arrow Up/Down: Player Speed up/down
+
 ESC: Exit the game
 
 <h2>Copyright & License</h2>
